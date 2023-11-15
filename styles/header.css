@@ -1,4 +1,4 @@
-.cabeçalho__menu-hamburger {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
@@ -35,7 +35,7 @@
     display: block;
 }
 
-.lista-menu__titulo, 
+.lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
@@ -47,7 +47,7 @@
 }
 
 .lista-menu__link {
-    background: var(--azul-degrade); 
+    background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -55,5 +55,5 @@
 }
 
 .container__botao {
-    display:none;
+    display: none;
 }
