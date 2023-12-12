@@ -8,7 +8,7 @@
 }
 
 .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
-    background-image: url("../img/Menu\ Aberto.svg");
+    background-image: url("../img/Menu Aberto.svg");
 }
 
 .container__botao:checked~.container__rotulo {
@@ -143,13 +143,13 @@
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
     }
+
 }
 
-@media screen and (min-width: 1728x) {
-
+@media screen and (min-width: 1728px) {
     .container__link {
-        display:flex;
-        align-items:center;
+        display: flex;
+        align-items: center;
         text-decoration: none;
         color: var(--preto);
     }
@@ -165,5 +165,4 @@
     .container__texto {
         display: block;
     }
-    
 }
